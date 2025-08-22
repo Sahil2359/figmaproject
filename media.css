@@ -1,0 +1,774 @@
+@media only screen and (max-width: 567px) {
+.bannerimg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.bannerimg img {
+    width: 100%;
+    max-width: 575px;
+    height: auto;
+}
+.imgheader {
+    width: 120px;
+    height: auto;
+    right: 30px;
+    padding: 10px;
+}
+.imgheader h1 {
+    font-size: 15px;
+}
+
+.btn-groups {
+    width: 80px;
+    height: auto;
+    padding: 5px 12px;
+    margin-top: 4px;
+    font-size: 10px;
+    border-radius: 40px;
+}
+
+
+@media (min-width: 1400px) {
+    .container, .container-sm, .container-md, .container-lg, .container-xl, .container-xxl {
+    max-width: 1170px;
+    }
+}
+
+.dotbar {
+    width: 100%;
+    height: auto;
+    bottom: 6px;
+}
+.dotbar .dot1 {
+    width: 8px;
+    height: 8px;
+}
+
+
+.town {
+    padding: 13px 12px;
+}
+.p1 {
+    padding: 0 5px 0 0;
+}
+.townhead {
+    padding: 0 5px 0 0;
+    font-size: 18px;
+}
+.contents {
+    border-bottom: 1px solid #333;
+    border-right: none;
+}
+.col-12:last-child .contents {
+    border-bottom: none;
+}
+
+
+.fuckingimg {
+    height: auto;
+}
+
+
+.fuckhead {
+    padding: 14px 10px;
+}
+.fuckheading img {
+    width: 115px;
+    height: auto;
+}
+.fuckheading {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.head3 {
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.p3 {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+
+.icon-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #333;
+}
+.mainbox h4 {
+    font-size: 10px;
+}
+.mainbox {
+    gap: 8px;
+}
+
+
+.mainslider {
+    height: auto;
+    background-color: #f7c5cb;
+    padding: 15px 0;
+    gap: 0;
+    margin-bottom: 0;
+}
+.slider1 {
+    margin-bottom: 5px;
+    padding: 10px;
+    height: auto;
+}
+.slidehead img {
+    width: 60px;
+}
+.slidehead h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+.para {
+    padding: 5px 15px;
+}
+.para1 {
+    font-size: 14px;
+    margin-bottom: 2px;
+
+}
+.leftname {
+    padding: 0 0 5px 0;
+}
+.leftname h4 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* Pill Container */
+
+.pillcontainer {
+    padding: 12px;
+}
+.boxpill {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+}
+.boxpill img {
+    height: 150px;
+    width: 150px;
+}
+
+.gummy {
+    margin-left: 0;
+}
+.gummyhead h2 {
+    font-size: 20px;
+    align-items: flex-start;
+    font-weight: 700;
+}
+.starp img {
+    width: 70px;
+}
+.starp p {
+    font-size: 15px;
+}
+.gummyhead p {
+    font-size: 14px;
+}
+.gethead {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.gethead::before, .gethead::after {
+    width: 55px;
+}
+
+.gethead::before {
+    right: 0;
+    margin-right: 4px;
+}
+
+.gethead::after {
+    left: 0;
+    margin-left: 4px;
+}
+
+
+
+
+.formbox {
+    width: 100%;
+    height: auto;
+    padding: 15px 10px;
+    border-radius: 6px;
+    background: linear-gradient(to right, #FAF7F7, #f1cbcb);
+    margin-top: 20px;
+}
+
+.formbox p {
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+form {
+    height: auto;
+}
+
+.fruit {
+    font-size: 14px;
+    line-height: 23px;
+    padding: 0 10px;
+    margin-top: 7px;
+    padding-bottom: 10px;
+}
+.radiobtn {
+    width: 15px;
+    height: 15px;
+    margin-right: 6px;
+}
+
+.purchasebox {
+    font-size: 14px;
+    line-height: 23px;
+    padding: 0 10px;
+    margin-top: 7px;
+    position: relative;
+}
+.purchasebox label {
+    font-size: 14px;
+    font-style: bold;
+    font-weight: 600;
+}
+.scd {
+    margin-top: 8px;
+}
+.smallp {
+    margin-top: 5px;
+}
+.cart {
+    position: absolute;
+    right: 12px;
+    letter-spacing: 1px;
+    margin-top: 5px;
+}
+.cart h2 {
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: bold;
+}
+.cart p {
+    font-size: 8px;
+    line-height: 12px;
+    font-style: light;
+    font-weight: 300;
+}
+.smallp p {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 4px 5px 0 30px;
+}
+.smallp .add {
+    color: #e57391;
+}
+
+.oneTime {
+    font-size: 14px;
+    line-height: 23px;
+    padding: 0 10px;
+    margin-top: 7px;
+}
+.smallp2 p {
+    font-size: 12px;
+    line-height: 14px;
+    border-bottom: 1px solid #333;
+    margin-top: 6px;
+    padding: 4px 5px 10px 30px;
+}
+
+.thirdboxs {
+    gap: 5px;
+    position: absolute;
+    right: 0;
+}
+.thirdboxs .box1, .box2, .box3 {
+    width: 30px;
+    height: auto;
+    border: 1px solid #333;
+    border-radius: 18px;
+    background-color: #FAF7F7;
+    font-size: 12px;
+}
+.thirdboxs .box1 , .box2 {
+    background-color: #eca8d5;
+}
+.thirdcontain {
+    letter-spacing: 1px;
+    margin-top: 13px;
+    height: auto;
+}
+
+
+.lastcart {
+    margin-bottom: 10px;
+}
+.product img {
+    width: 60px;
+    height: auto;
+    border-radius: 8px;
+}
+.urohead h3 {
+    font-size: 15px;
+    margin: 0 0 5px 0;
+}
+.price {
+    font-size: 13px;
+}
+.price .mrp {
+    text-decoration: line-through;
+    color: gray;
+}
+.price .discount {
+    font-weight: bold;
+    color: #e57391;
+}
+.learn {
+    display: inline-block;
+    font-size: 14px;
+    margin-top: 8px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #e57391;
+}
+.learn i {
+    font-size: 12px;
+}
+.learn:hover {
+    text-decoration: underline;
+}
+
+
+.buttoncart button {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+}
+.addcart {
+    width: 200px;
+    padding: 10px 20px;
+}
+
+
+
+.bundle img {
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+}
+
+.imagecart {
+    top: 2px;
+    left: 20px;
+}
+.bhead {
+    font-size: 10px;
+    line-height: 16px;
+    font-weight: 700;
+}
+.bhead span {
+    font-size: 12px;
+    line-height: 14px;
+    color: #FF5764;
+}
+.imagecart p {
+    font-size: 8px;
+    line-height: 12px;
+    margin: 0;
+}
+.addbtn {
+    padding: 4px 8px;
+    border: 1px solid #333;
+    font-size: 12px;
+    font-weight: 600;
+    width: 125px;
+    height: auto;
+    line-height: 15px;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+
+.fulllove {
+    height: auto;
+    padding: 12px 0;
+}
+
+.aacIcon {
+    margin: 12px 6PX;
+    display: flex;
+    flex-direction: column;
+}
+.icon-1 {
+    width: 100%;
+    height: auto;
+    margin: 5px 5px;
+}
+.icon-1 h3 {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+}
+.icon-1 i {
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    background-color: antiquewhite;
+    margin-right: 10px;
+}
+
+
+.motoimg {
+    position: relative;
+}
+
+
+.names {
+    position: absolute;
+    top: 8px;
+    left: 10px;
+}
+.twohead {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+br {
+    margin: 0;
+    padding: 0;
+    gap: 0;
+}
+.twohead span {
+    font-size: 12px;
+    line-height: 15px;
+    margin-top: 4px;
+}
+.names p {
+    font-size: 10px;
+    line-height: 14px;
+    font-weight: 400;
+}
+.shopbtn {
+    width: 120px;
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    background-color: #eca8d5;
+    border-radius: 25px;
+    margin-top: 6px;
+    transition: all 0.5 ease;
+    border: none;
+}
+
+.nextprev {
+    display: none;
+}
+
+
+.fourBox {
+    width: 100%;
+    height: auto;
+    background-color: #ebdfdf;
+    padding: 15px;
+}
+.fourhead {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+.fouritem img {
+    width: 130px;
+    height: auto;
+}
+.fouritem {
+    padding: 8px 0;
+}
+.fouritem h5 {
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.fouritem p {
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 20px;
+    margin-bottom: 6px;
+}
+.fourbtn {
+    width: 140px;
+    font-size: 14px;
+    padding: 6px;
+    border-radius: 25px;
+    text-align: center;
+    background-color: #eca8d5;
+    border: none;
+    margin-top: 6px;
+    font-weight: 700;
+    transition: all 0.5s ease;
+}
+.fourbtn:hover {
+    background: linear-gradient(to right, #ee8080, #d8f38e);
+    scale: 1.02;
+}
+
+
+
+.touchBox {
+    width: 100%;
+    height: 200px;
+}
+.leftside {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+.leftside h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 40px;
+}
+.leftside p {
+    font-size: 15px;
+    line-height: 20px;
+}
+
+.rightside {
+    height: auto;
+}
+.rightside input {
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+}
+.searchBtn {
+    padding: 5px;
+    width: auto;
+    height: 40px;
+}
+
+
+
+.vitaminBox {
+    width: 100%;
+    min-height: 250px;
+}
+.daily {
+    text-align: start;
+    padding: 20px 10px;
+}
+.daily h2 {
+    font-size: 25px;
+    line-height: 35px;
+    font-weight: 700;
+}
+.resizeContainer:first-of-type p {
+    font-size: 16px;
+    line-height: 20px;
+}
+.cycle {
+    width: 150px;
+    height: auto;
+    padding: 0;
+    background-color: #FAF7F7;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px #aaa;
+    margin: 10px 10px;
+}
+.cycle img {
+    width: 100%;
+    height: 72px;
+}
+.cycle h2 {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 600;
+    margin: 6px;
+}
+.cycle a {
+    font-size: 10px;
+    line-height: 14px;
+    margin: 8px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    color: #333;
+}
+.lastBtn {
+    margin: 25px 0;
+    display: flex;
+    justify-content: center;
+}
+.cycleBtn {
+    width: 230px;
+    padding: 10px 14px;
+}
+
+
+
+
+.footcontainer {
+    padding: 30px 20px;
+    min-height: auto;
+}
+
+.foothead {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.mainuLink {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.mainuLink a {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.lastPill {
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: -35px;
+    right: 0;
+}
+
+.socialIcon {
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.footeritems {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.copyrite {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.copyrite h4 {
+    font-size: 18px;
+}
+
+.copyrite p {
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.termBox {
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.logos {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.upiLogo {
+    width: 50px;
+    height: 40px;
+    margin: 5px;
+}
+
+}
+
+
+
+@media only screen and (min-width:576px) and (max-width: 992px) {
+    .bannerimg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.bannerimg img {
+    width: 100%;
+    scrollbar-width: none;
+    max-width: 992px;
+    object-fit: cover;
+}
+.imgheader {
+    width: 180px;
+    height: auto;
+    color: black;
+    position: absolute;
+    right: 50px;
+    padding: 10px;
+}
+.imgheader h1 {
+    font-size: 25px;
+    line-height: 34px;
+}
+
+.btn-groups {
+    background: linear-gradient(to right , #abdc9a , #eca8d5);
+    width: 120px;
+    height: auto;
+    padding: 10px 12px;
+    margin-top: 5px;
+    border: 1px solid #333;
+    align-items: center;
+    font-size: 14px;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+}
+.btn-groups:hover {
+    background: linear-gradient(to right, #f7c5cb, #d4e573);
+}
+
+.dotbar {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    display: flex;
+    bottom: 15px;
+    justify-content: center;
+}
+.dotbar .dot1 {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+.dotbar .dot1:first-child {
+    background-color: #eca8d5;
+}
+}
